@@ -1,18 +1,14 @@
-# cdk-base-ts
+# Welcome to your CDK TypeScript project
 
-Template for CDK TypeScript repositories.
+This is a blank project for CDK development with TypeScript.
 
-## Codespaces / Dev Container
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-This repository includes a ready-to-use dev container for AWS CDK TypeScript work.
+## Useful commands
 
-When you open this repo in GitHub Codespaces (or VS Code Dev Containers), it will:
-
-- use a Node.js + TypeScript development image
-- install the AWS CDK CLI globally (`cdk`)
-
-Then you can initialize a new CDK app from the repo root, for example:
-
-```bash
-cdk init app --language typescript
-```
+* `npm run build`   compile typescript to js
+* `npm run watch`   watch for changes and compile
+* `npm run test`    perform the jest unit tests
+* `npx cdk deploy`  deploy this stack to your default AWS account/region
+* `npx cdk diff`    compare deployed stack with current state
+* `npx cdk synth`   emits the synthesized CloudFormation template
